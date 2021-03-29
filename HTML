@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Restaurant Menu With JQuery</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
+
+<body>
+  <input type="button" class="button" id="btMenu" value="Menu">
+  <ul id="liMainMenu" class="ul">
+    <li>
+      <input type="button" class="button" id="btStarter" value="Starter">
+    </li>
+    <li>
+      <input type="button" class="button" id="btMain" value="Main">
+    </li>
+    <li>
+      <input type="button" class="button" id="btDessert" value="Dessert">
+    </li>
+  </ul>
+  <ul id="liStarter" class="ul">
+    <li>
+      <input type="button" class="button" id="btStarter1" value="">
+    </li>
+    <li>
+      <input type="button" class="button" id="btStarter2" value="">
+    </li>
+    <li>
+      <input type="button" class="button" id="btStarter3" value="">
+    </li>
+  </ul>
+  <ul id="liMain" class="ul">
+    <li>
+      <input type="button" class="button" id="btMain1" value="">
+    </li>
+    <li>
+      <input type="button" class="button" id="btMain2" value="">
+    </li>
+    <li>
+      <input type="button" class="button" id="btMain3" value="">
+    </li>
+  </ul>
+  <ul id="liDessert" class="ul">
+    <li>
+      <input type="button" class="button" id="btDessert1" value="">
+    </li>
+    <li>
+      <input type="button" class="button" id="btDessert2" value="">
+    </li>
+    <li>
+      <input type="button" class="button" id="btDessert3" value="">
+    </li>
+  </ul>
+  <table class="table">
+    <th>Your Order:</th>
+    <tr>
+      <td>Starter :</td>
+      <td id="selectedStarter"></td>
+    </tr>
+    <tr>
+      <td>Main :</td>
+      <td id="selectedMain"></td>
+    </tr>
+    <tr>
+      <td>Dessert :</td>
+      <td id="selectedDessert"></td>
+    </tr>
+    <tr>
+      <td>Total :</td>
+      <td id="total"></td>
+    </tr>
+  </table>
+</body>
+<script src="app.js" type="text/javascript"></script>
+
+</html>
